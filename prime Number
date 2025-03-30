@@ -1,0 +1,39 @@
+// Prime Number
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+  
+  
+    
+
+      
+         public static void main(String[] args) {
+          
+          //System.out.println(sum(8));
+            int n =3;
+            int flag=0;
+            if(n<2){
+                System.out.println("number less than 1 or 1 is not prime");
+            }
+            if(n==2){
+                System.out.println(" prime");
+            }
+            else{
+                for(int i=2; i<n;i++){
+                    if(n%i ==0){
+                        flag++;
+                    }
+                }
+                 System.out.println((flag==0)?"Prime":"Not prime");
+            }
+            
+            
+          
+          
+         }
+      
+      
+      
+}
+  
+       
